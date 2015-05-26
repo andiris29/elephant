@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>538126CC-3B6E-4767-8CFD-8D06C11D50E6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyPlayground</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6C9E9F7210EF14365522D7B8F9B2FF0862002CBD</key>
+		<string>https://github.com/andiris29/elephant.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>swift-playground/MyPlayground.playground</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6C9E9F7210EF14365522D7B8F9B2FF0862002CBD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andiris29/elephant.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6C9E9F7210EF14365522D7B8F9B2FF0862002CBD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6C9E9F7210EF14365522D7B8F9B2FF0862002CBD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>andiris29.elephant</string>
+		</dict>
+	</array>
+</dict>
+</plist>
