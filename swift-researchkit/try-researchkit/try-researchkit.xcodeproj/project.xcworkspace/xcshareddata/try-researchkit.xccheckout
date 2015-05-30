@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>79D5E9B0-0310-4EFE-88AE-CB9009E38933</string>
+	<key>IDESourceControlProjectName</key>
+	<string>try-researchkit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6C9E9F7210EF14365522D7B8F9B2FF0862002CBD</key>
+		<string>https://github.com/andiris29/elephant.git</string>
+		<key>9CF6181E3789E3853840089C16D4B9FDDB9B31E2</key>
+		<string>https://github.com/ResearchKit/ResearchKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>swift-researchkit/try-researchkit/try-researchkit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6C9E9F7210EF14365522D7B8F9B2FF0862002CBD</key>
+		<string>../../../..</string>
+		<key>9CF6181E3789E3853840089C16D4B9FDDB9B31E2</key>
+		<string>../../../../../ResearchKit</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andiris29/elephant.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6C9E9F7210EF14365522D7B8F9B2FF0862002CBD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6C9E9F7210EF14365522D7B8F9B2FF0862002CBD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>andiris29.elephant</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CF6181E3789E3853840089C16D4B9FDDB9B31E2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ResearchKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
