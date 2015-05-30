@@ -1,15 +1,15 @@
 //
-//  try_researchkitTests.swift
-//  try-researchkitTests
+//  swift_researchkitTests.swift
+//  swift-researchkitTests
 //
-//  Created by Wang, Andrea on 5/28/15.
+//  Created by Wang, Andrea on 5/30/15.
 //  Copyright (c) 2015 Wang, Andrea. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class try_researchkitTests: XCTestCase {
+class swift_researchkitTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

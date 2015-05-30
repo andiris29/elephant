@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>try-researchkit.xcscheme</key>
+		<key>swift-researchkit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B6ECB1D41B174F6C00598209</key>
+		<key>B68B625E1B19F33C00F6F341</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B6ECB1E91B174F6C00598209</key>
+		<key>B68B62731B19F33C00F6F341</key>
 		<dict>
 			<key>primary</key>
 			<true/>

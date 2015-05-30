@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  try-researchkit
+//  swift-researchkit
 //
-//  Created by Wang, Andrea on 5/28/15.
+//  Created by Wang, Andrea on 5/30/15.
 //  Copyright (c) 2015 Wang, Andrea. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         taskViewController.delegate = self
         presentViewController(taskViewController, animated: true, completion: nil)
     }
+
 }
 
 extension ViewController: ORKTaskViewControllerDelegate {
@@ -42,4 +43,3 @@ extension ViewController: ORKTaskViewControllerDelegate {
         dismissViewControllerAnimated(true, completion: nil)
     }
 }
-

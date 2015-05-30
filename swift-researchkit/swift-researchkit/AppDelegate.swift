@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  try-researchkit
+//  swift-researchkit
 //
-//  Created by Wang, Andrea on 5/28/15.
+//  Created by Wang, Andrea on 5/30/15.
 //  Copyright (c) 2015 Wang, Andrea. All rights reserved.
 //
 

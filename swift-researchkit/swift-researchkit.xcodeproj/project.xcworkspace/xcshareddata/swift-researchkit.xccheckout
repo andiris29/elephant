@@ -5,9 +5,9 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>79D5E9B0-0310-4EFE-88AE-CB9009E38933</string>
+	<string>E4595B50-FA2B-4403-9D95-82C04A1CACC6</string>
 	<key>IDESourceControlProjectName</key>
-	<string>try-researchkit</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6C9E9F7210EF14365522D7B8F9B2FF0862002CBD</key>
@@ -16,13 +16,13 @@
 		<string>https://github.com/ResearchKit/ResearchKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>swift-researchkit/try-researchkit/try-researchkit.xcodeproj</string>
+	<string>swift-researchkit/swift-researchkit.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6C9E9F7210EF14365522D7B8F9B2FF0862002CBD</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 		<key>9CF6181E3789E3853840089C16D4B9FDDB9B31E2</key>
-		<string>../../../../../ResearchKit</string>
+		<string>../../../../ResearchKit</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/andiris29/elephant.git</string>

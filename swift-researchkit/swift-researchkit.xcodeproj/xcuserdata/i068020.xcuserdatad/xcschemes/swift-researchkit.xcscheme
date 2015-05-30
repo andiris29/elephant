@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6ECB1D41B174F6C00598209"
-               BuildableName = "try-researchkit.app"
-               BlueprintName = "try-researchkit"
-               ReferencedContainer = "container:try-researchkit.xcodeproj">
+               BlueprintIdentifier = "B68B625E1B19F33C00F6F341"
+               BuildableName = "swift-researchkit.app"
+               BlueprintName = "swift-researchkit"
+               ReferencedContainer = "container:swift-researchkit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6ECB1E91B174F6C00598209"
-               BuildableName = "try-researchkitTests.xctest"
-               BlueprintName = "try-researchkitTests"
-               ReferencedContainer = "container:try-researchkit.xcodeproj">
+               BlueprintIdentifier = "B68B62731B19F33C00F6F341"
+               BuildableName = "swift-researchkitTests.xctest"
+               BlueprintName = "swift-researchkitTests"
+               ReferencedContainer = "container:swift-researchkit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6ECB1E91B174F6C00598209"
-               BuildableName = "try-researchkitTests.xctest"
-               BlueprintName = "try-researchkitTests"
-               ReferencedContainer = "container:try-researchkit.xcodeproj">
+               BlueprintIdentifier = "B68B62731B19F33C00F6F341"
+               BuildableName = "swift-researchkitTests.xctest"
+               BlueprintName = "swift-researchkitTests"
+               ReferencedContainer = "container:swift-researchkit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6ECB1D41B174F6C00598209"
-            BuildableName = "try-researchkit.app"
-            BlueprintName = "try-researchkit"
-            ReferencedContainer = "container:try-researchkit.xcodeproj">
+            BlueprintIdentifier = "B68B625E1B19F33C00F6F341"
+            BuildableName = "swift-researchkit.app"
+            BlueprintName = "swift-researchkit"
+            ReferencedContainer = "container:swift-researchkit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6ECB1D41B174F6C00598209"
-            BuildableName = "try-researchkit.app"
-            BlueprintName = "try-researchkit"
-            ReferencedContainer = "container:try-researchkit.xcodeproj">
+            BlueprintIdentifier = "B68B625E1B19F33C00F6F341"
+            BuildableName = "swift-researchkit.app"
+            BlueprintName = "swift-researchkit"
+            ReferencedContainer = "container:swift-researchkit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6ECB1D41B174F6C00598209"
-            BuildableName = "try-researchkit.app"
-            BlueprintName = "try-researchkit"
-            ReferencedContainer = "container:try-researchkit.xcodeproj">
+            BlueprintIdentifier = "B68B625E1B19F33C00F6F341"
+            BuildableName = "swift-researchkit.app"
+            BlueprintName = "swift-researchkit"
+            ReferencedContainer = "container:swift-researchkit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
