@@ -5,13 +5,12 @@
  * 	2 GHz Intel Core i7
  * Chrome 48.0.2564.97
  * 
- * base: 1217.777ms
- * nochange hidden class: 1451.346ms
- * change hidden class: 2194.618ms
+ * base: 1533.484ms
+ * monomorphic: 1764.962ms
+ * polymorphic: 2558.738ms
  */
 var Clazz = function(a, b) {
-	this.a = a;
-	this.b = b;
+	this[0] = a;
 };
 
 console.time('base');
@@ -20,16 +19,16 @@ for (var i = 1000 * 1000; i >=0; i--) {
 }
 console.timeEnd('base');
 
-console.time('nochange hidden class');
+console.time('monomorphic');
 for (var i = 1000 * 1000; i >=0; i--) {
 	var clazz = new Clazz(1, 2);
-	clazz['a'] = 3;
+	clazz[0] = 3;
 }
-console.timeEnd('nochange hidden class');
+console.timeEnd('monomorphic');
 
-console.time('change hidden class');
+console.time('polymorphic');
 for (var i = 1000 * 1000; i >=0; i--) {
 	var clazz = new Clazz(1, 2);
 	clazz[i] = 3;
 }
-console.timeEnd('change hidden class');
+console.timeEnd('polymorphic');
