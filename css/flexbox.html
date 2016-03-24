@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FlexBox</title>
+	<style type="text/css">
+		.container {
+			background: grey;
+			display: flex;
+			width: 100px;
+			height: 100px;
+		}
+		.wrap-container {
+			width: 70px;
+			height: 70px;
+		}
+		.item {
+			width: 30px;
+			height: 30px;
+		}
+
+	</style>
+</head>
+<body>
+	<span>[container] flex-direction: row(default)</span>
+	<div class="container" style="flex-direction: row;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] flex-direction: row-reverse</span>
+	<div class="container" style="flex-direction: row-reverse;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] flex-direction: column</span>
+	<div class="container" style="flex-direction: column;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] flex-direction: column-reverse</span>
+	<div class="container" style="flex-direction: column-reverse;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] justify-content: flex-start(default)</span>
+	<div class="container" style="justify-content: flex-start;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] justify-content: flex-end</span>
+	<div class="container" style="justify-content: flex-end;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] justify-content: center</span>
+	<div class="container" style="justify-content: center;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] justify-content: space-between</span>
+	<div class="container" style="justify-content: space-between;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] justify-content: space-around</span>
+	<div class="container" style="justify-content: space-around;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-items: stretch(default)</span>
+	<div class="container" style="align-items: stretch;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-items: flex-start</span>
+	<div class="container" style="align-items: flex-start;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-items: flex-end</span>
+	<div class="container" style="align-items: flex-end;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-items: center</span>
+	<div class="container" style="align-items: center;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-items: baseline</span>
+	<div class="container" style="align-items: baseline;">
+		<div class="item" style="background: red; font-size: 12px;">text</div>
+		<div class="item" style="background: yellow; font-size: 22px;">text</div>
+		<div class="item" style="background: blue; font-size: 32px;">text</div>
+	</div>
+	<span>[container] flex-wrap: nowrap(default)</span>
+	<div class="container wrap-container" style="flex-wrap: nowrap;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] flex-wrap: wrap</span>
+	<div class="container wrap-container" style="flex-wrap: wrap;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] flex-wrap: wrap-reverse</span>
+	<div class="container wrap-container" style="flex-wrap: wrap-reverse;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-content: stretch(default)</span>
+	<div class="container wrap-container" style="align-content: stretch; flex-wrap: wrap;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-content: flex-start</span>
+	<div class="container wrap-container" style="align-content: flex-start; flex-wrap: wrap;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-content: flex-end</span>
+	<div class="container wrap-container" style="align-content: flex-end; flex-wrap: wrap;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-content: center</span>
+	<div class="container wrap-container" style="align-content: center; flex-wrap: wrap;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-content: space-between</span>
+	<div class="container wrap-container" style="align-content: space-between; flex-wrap: wrap;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[container] align-content: space-around</span>
+	<div class="container wrap-container" style="align-content: space-around; flex-wrap: wrap;">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[item] order(default)</span>
+	<div class="container" style="">
+		<div class="item" style="background: red"></div>
+		<div class="item" style="background: yellow"></div>
+		<div class="item" style="background: blue"></div>
+	</div>
+	<span>[item] order(customized)</span>
+	<div class="container" style="">
+		<div class="item" style="background: red; order: 3;"></div>
+		<div class="item" style="background: yellow; order: 2;"></div>
+		<div class="item" style="background: blue; order: 1;"></div>
+	</div>
+	<span>[item] flex-grow</span>
+	<div class="container" style="">
+		<div class="item" style="background: red; flex-grow: 1; width: initial;"></div>
+		<div class="item" style="background: yellow; flex-grow: 2; width: initial;"></div>
+		<div class="item" style="background: blue; flex-grow: 1; width: initial;"></div>
+	</div>
+	<span>[item] flex-shrink ???</span>
+	<div class="container" style="">
+		<div class="item" style="background: red; flex-shrink: 1;"></div>
+		<div class="item" style="background: yellow; flex-shrink: 2;"></div>
+		<div class="item" style="background: blue; flex-shrink: 1;"></div>
+	</div>
+</body>
+</html>
