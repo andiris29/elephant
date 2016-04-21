@@ -20,7 +20,7 @@ import java.io.IOException;
 public class ParallelIndexing {
     public static void main(String[] args) throws IOException {
         args = new String[1];
-        args[0] = "/Users/i068020/Documents/_git/ant/elephant/image-retrieval/images/db";
+        args[0] = "C:/_git/ant/elephant/image-retrieval/images/db";
         // Checking if arg[0] is there and if it is a directory.
         boolean passed = false;
         if (args.length > 0) {
