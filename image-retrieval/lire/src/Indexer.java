@@ -2,6 +2,7 @@ import net.semanticmetadata.lire.builders.GlobalDocumentBuilder;
 import net.semanticmetadata.lire.imageanalysis.features.global.AutoColorCorrelogram;
 import net.semanticmetadata.lire.imageanalysis.features.global.CEDD;
 import net.semanticmetadata.lire.imageanalysis.features.global.FCTH;
+import net.semanticmetadata.lire.imageanalysis.features.global.PHOG;
 import net.semanticmetadata.lire.utils.FileUtils;
 import net.semanticmetadata.lire.utils.LuceneUtils;
 import org.apache.lucene.document.Document;
@@ -18,6 +19,8 @@ import java.util.Iterator;
 public class Indexer {
     public static void main(String[] args) throws IOException {
         // Checking if arg[0] is there and if it is a directory.
+        args = new String[2];
+        args[0] = "C:/_git/ant/elephant/image-retrieval/images/db";
         boolean passed = false;
         if (args.length > 0) {
             File f = new File(args[0]);
@@ -33,10 +36,10 @@ public class Indexer {
         ArrayList<String> images = FileUtils.readFileLines(new File(args[0]), true);
 
         // Creating a CEDD document builder and indexing all files.
-        GlobalDocumentBuilder globalDocumentBuilder = new GlobalDocumentBuilder(CEDD.class);
+        GlobalDocumentBuilder globalDocumentBuilder = new GlobalDocumentBuilder(PHOG.class);
         // and here we add those features we want to extract in a single run:
-        globalDocumentBuilder.addExtractor(FCTH.class);
-        globalDocumentBuilder.addExtractor(AutoColorCorrelogram.class);
+//        globalDocumentBuilder.addExtractor(FCTH.class);
+//        globalDocumentBuilder.addExtractor(AutoColorCorrelogram.class);
         // Creating an Lucene IndexWriter
         IndexWriter iw = LuceneUtils.createIndexWriter("index", true, LuceneUtils.AnalyzerType.WhitespaceAnalyzer);
         // Iterating through images building the low level features

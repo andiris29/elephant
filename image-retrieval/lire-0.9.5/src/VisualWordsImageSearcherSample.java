@@ -25,7 +25,7 @@ import java.io.IOException;
  */
 public class VisualWordsImageSearcherSample {
     public static void main(String[] args) throws IOException {
-        String queryImage = "C:/_git/ant/elephant/image-retrieval/images/search/db20-xx.jpg";
+        String queryImage = "C:/_git/ant/elephant/image-retrieval/images/search/IMG_2622-x.jpg";
         String datasetPath = "C:/_git/ant/elephant/image-retrieval/images/db";
         String indexPath = "C:/_git/ant/elephant/image-retrieval/lire-0.9.5/index";
 

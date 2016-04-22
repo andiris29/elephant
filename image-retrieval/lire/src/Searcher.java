@@ -18,7 +18,7 @@ public class Searcher {
 
     public static void main(String[] args) throws IOException {
         args = new String[1];
-        args[0] = "C:/_git/ant/elephant/image-retrieval/images/search/04-x.jpg";
+        args[0] = "C:/_git/ant/elephant/image-retrieval/images/search/IMG_2622-x.jpg";
         // Checking if arg[0] is there and if it is an image.
         BufferedImage img = null;
         boolean passed = false;
