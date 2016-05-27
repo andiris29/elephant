@@ -1,0 +1,17 @@
+.station {
+	fill : #fff;
+	opacity : 0.5;
+	stroke : #00ffff;
+	stroke-width : 2px;
+}
+
+.template {
+	background-color: rgba(35,134,140,1);
+}
+
+.container {
+	background-image: url(50.png);
+	background-position: 74px 57px;
+	background-repeat: no-repeat;
+	background-blend-mode: normal;
+}
